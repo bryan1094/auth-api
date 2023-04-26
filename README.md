@@ -48,6 +48,13 @@ $ npm run start:prod
 
 ## Running the app
 
+## Documentación en Swagger
+Luego de tener corriendo el proyecto pueden verificar los endpoint con alguna herramienta como postman,
+o para fines mas practicos al proyecto se le configuro Swagger haciendo que tenindo corriendo dicho pryecto
+podamos ir a nuestro navegador de preferencia y dirigirnos a la url  [http://localhost:3000/api](http://localhost:3000/api)
+y hacer uso de los endpoints desde ahí.
+## Documentación en Swagger
+
 ## Descripción de la solución y retos encontrados
 Esta aplicación es una aplicación bastante básica, y simula el registro de usuarios, dicha información se almacena en memoria,
 y también permite realizar login con los usuarios previamente registrados.

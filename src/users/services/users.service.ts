@@ -6,8 +6,10 @@ import { User } from '../models/users.model';
 
 @Injectable()
 export class UsersService {
+  //Variable donde se guardara la informacion de los usuarios registrados
   private users: User[] = [];
 
+  //Funcion que almacena los usuarios recibidos desde el endpoint de register
   async create(createUserDto: CreateUserDto) {
     try {
       const { username, password } = createUserDto;
@@ -22,6 +24,8 @@ export class UsersService {
     }
   }
 
+  /*Funcion que busca a un usuario por username, recibe el parametro username,
+  este lo recibe desde el endpoint de login*/
   async findByUsername(username: string) {
     try {
       const user = this.users.find((user) => user.username === username);
