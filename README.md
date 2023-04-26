@@ -45,7 +45,21 @@ $ npm run start:dev
 $ npm run start:prod
 ```
 
-## Test
+
+## Running the app
+
+## Descripción de la solución y retos encontrados
+Esta aplicación es una aplicación bastante básica, y simula el registro de usuarios, dicha información se almacena en memoria,
+y también permite realizar login con los usuarios previamente registrados.
+
+A mi punto de vista es un muy buen ejercicio para demostrar los conocimientos en typescript como también en el framework de Nest
+ya que este nos permite flexibilidad y rapidez a la hora de realizar desarrollos.
+
+Sin afán de sonar prepotente, no encontré retos que no haya trabajado en anteriores proyectos, lo único que cambio que en esta solución 
+la información se guarda en memoria cuando regularmente se guarde en base de datos, que para fines prácticos trabajarlo de esta manera 
+para esta prueba técnica está muy bien.
+
+## Descripción de la solución y retos encontrados
 
 ```bash
 # unit tests
